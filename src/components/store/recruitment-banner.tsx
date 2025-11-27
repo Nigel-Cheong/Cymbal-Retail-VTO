@@ -3,7 +3,7 @@ import { ArrowRight } from 'lucide-react';
 
 export default function RecruitmentBanner() {
   return (
-    <div className="mb-12 rounded-lg bg-card p-8 text-center shadow-sm">
+    <div className="rounded-lg bg-card p-8 text-center shadow-sm">
       <h2 className="mb-3 text-3xl font-extrabold tracking-tight text-foreground">
         Want to work with us?
       </h2>

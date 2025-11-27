@@ -31,7 +31,6 @@ export default function Home() {
       <Header searchQuery={searchQuery} onSearchQueryChange={setSearchQuery} />
       <main className="flex-1">
         <div className="container mx-auto px-4 py-8">
-          <RecruitmentBanner />
           <CategoryFilters
             categories={categories}
             selectedCategory={selectedCategory}
@@ -41,6 +40,9 @@ export default function Home() {
             products={filteredProducts}
             onProductSelect={setSelectedProduct}
           />
+          <div className="mt-12">
+            <RecruitmentBanner />
+          </div>
         </div>
       </main>
       <Footer />
