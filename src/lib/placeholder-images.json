@@ -1,3 +1,52 @@
 {
-  "placeholderImages": []
+  "placeholderImages": [
+    {
+      "id": "t-shirt-white",
+      "description": "White T-shirt on a model",
+      "imageUrl": "https://images.unsplash.com/photo-1622445275992-e7efb32d2257?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHx3aGl0ZSUyMHQtc2hpcnR8ZW58MHx8fHwxNzY0MTkwNDgyfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "white t-shirt"
+    },
+    {
+      "id": "hoodie-black",
+      "description": "Black hoodie on a model",
+      "imageUrl": "https://images.unsplash.com/photo-1610582144787-eda2e6f293b4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxibGFjayUyMGhvb2RpZXxlbnwwfHx8fDE3NjQxMjgzODZ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "black hoodie"
+    },
+    {
+      "id": "jeans-blue",
+      "description": "Blue denim jeans",
+      "imageUrl": "https://images.unsplash.com/photo-1604176354204-9268737828e4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxibHVlJTIwamVhbnN8ZW58MHx8fHwxNzY0MTE3NjE1fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "blue jeans"
+    },
+    {
+      "id": "jacket-denim",
+      "description": "Denim jacket on a model",
+      "imageUrl": "https://images.unsplash.com/photo-1618393649689-c997c7455ef5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxkZW5pbSUyMGphY2tldHxlbnwwfHx8fDE3NjQxMzExMzV8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "denim jacket"
+    },
+    {
+      "id": "cap-black",
+      "description": "Black baseball cap",
+      "imageUrl": "https://images.unsplash.com/photo-1640614315283-c8321e845dad?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8YmxhY2slMjBjYXB8ZW58MHx8fHwxNzY0MjE3MTE5fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "black cap"
+    },
+    {
+      "id": "sneakers-white",
+      "description": "White sneakers",
+      "imageUrl": "https://images.unsplash.com/photo-1722489292294-426912777649?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHx3aGl0ZSUyMHNuZWFrZXJzfGVufDB8fHx8MTc2NDEwNTg0NXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "white sneakers"
+    },
+    {
+      "id": "t-shirt-graphic",
+      "description": "Graphic T-shirt",
+      "imageUrl": "https://images.unsplash.com/photo-1763403063428-10184adc7be3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxncmFwaGljJTIwdC1zaGlydHxlbnwwfHx8fDE3NjQxMzExMzV8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "graphic t-shirt"
+    },
+    {
+      "id": "jacket-leather",
+      "description": "Leather jacket",
+      "imageUrl": "https://images.unsplash.com/photo-1551028719-00167b16eac5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxsZWF0aGVyJTIwamFja2V0fGVufDB8fHx8MTc2NDIxNjM0Mnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "leather jacket"
+    }
+  ]
 }
