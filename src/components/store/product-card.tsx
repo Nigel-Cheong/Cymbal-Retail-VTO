@@ -35,7 +35,7 @@ export default function ProductCard({ product, onProductSelect, priority = false
               <Badge className="bg-destructive text-destructive-foreground hover:bg-destructive/80 text-sm font-bold">New</Badge>
             )}
             {product.isPopular && (
-              <Badge className="text-sm font-bold">Popular</Badge>
+              <Badge className="text-sm font-bold">🔥 Popular</Badge>
             )}
           </div>
         </div>
