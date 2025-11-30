@@ -26,12 +26,11 @@ export default function ProductCard({ product, onProductSelect, priority = false
             src={product.image.imageUrl}
             alt={product.name}
             fill
-            sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
             className="object-cover transition-transform duration-300 group-hover:scale-105"
             data-ai-hint={product.image.imageHint}
             priority={priority}
           />
-           <div className="absolute top-3 left-3 flex flex-col gap-2">
+           <div className="absolute top-3 left-3 flex gap-2">
             {product.isNew && (
               <Badge className="bg-destructive text-destructive-foreground hover:bg-destructive/80">New</Badge>
             )}
