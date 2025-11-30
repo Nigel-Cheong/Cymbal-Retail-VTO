@@ -32,10 +32,10 @@ export default function ProductCard({ product, onProductSelect, priority = false
           />
            <div className="absolute top-3 left-3 flex gap-2">
             {product.isNew && (
-              <Badge className="bg-destructive text-destructive-foreground hover:bg-destructive/80">New</Badge>
+              <Badge className="bg-destructive text-destructive-foreground hover:bg-destructive/80 text-sm font-bold">New</Badge>
             )}
             {product.isPopular && (
-              <Badge>Popular</Badge>
+              <Badge className="text-sm font-bold">Popular</Badge>
             )}
           </div>
         </div>
