@@ -7,9 +7,10 @@ import { Badge } from '@/components/ui/badge';
 interface ProductCardProps {
   product: Product;
   onProductSelect: (product: Product) => void;
+  priority?: boolean;
 }
 
-export default function ProductCard({ product, onProductSelect }: ProductCardProps) {
+export default function ProductCard({ product, onProductSelect, priority = false }: ProductCardProps) {
   const formatPrice = (price: number) => {
     return new Intl.NumberFormat('en-US', {
       style: 'currency',
@@ -28,6 +29,7 @@ export default function ProductCard({ product, onProductSelect }: ProductCardPro
             sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
             className="object-cover transition-transform duration-300 group-hover:scale-105"
             data-ai-hint={product.image.imageHint}
+            priority={priority}
           />
         </div>
         <div className="p-4">
