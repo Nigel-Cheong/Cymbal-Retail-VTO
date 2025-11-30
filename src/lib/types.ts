@@ -7,6 +7,8 @@ export type Product = {
   price: number;
   desc: string;
   image: ImagePlaceholder;
+  isNew?: boolean;
+  isPopular?: boolean;
 };
 
 export type Category = {

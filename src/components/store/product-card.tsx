@@ -31,6 +31,14 @@ export default function ProductCard({ product, onProductSelect, priority = false
             data-ai-hint={product.image.imageHint}
             priority={priority}
           />
+           <div className="absolute top-3 left-3 flex flex-col gap-2">
+            {product.isNew && (
+              <Badge className="bg-destructive text-destructive-foreground hover:bg-destructive/80">New</Badge>
+            )}
+            {product.isPopular && (
+              <Badge>Popular</Badge>
+            )}
+          </div>
         </div>
         <div className="p-4">
           <Badge variant="secondary" className="mb-2">{product.category}</Badge>
