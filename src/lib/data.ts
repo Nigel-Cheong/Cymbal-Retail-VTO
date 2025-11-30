@@ -21,6 +21,14 @@ export const categories: Category[] = [
 
 export const products: Product[] = [
   {
+    id: 'prod_9',
+    name: 'Google Workspace Zip Hoodie',
+    category: 'Hoodies',
+    price: 99.99,
+    desc: 'Stay cozy and productive with this exclusive Google Workspace zip hoodie. Made by Marine Layer.',
+    image: findImage('hoodie-google-workspace'),
+  },
+  {
     id: 'prod_1',
     name: 'Organic Cotton Tee',
     category: 'T-Shirts',
