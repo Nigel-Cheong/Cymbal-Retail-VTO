@@ -9,6 +9,7 @@ import CategoryFilters from "@/components/store/category-filters";
 import ProductGrid from "@/components/store/product-grid";
 import Footer from "@/components/store/footer";
 import VirtualTryOnModal from "@/components/store/virtual-try-on-modal";
+import HowItWorksBanner from "@/components/store/how-it-works-banner";
 
 export default function Home() {
   const [searchQuery, setSearchQuery] = React.useState("");
@@ -31,6 +32,7 @@ export default function Home() {
       <Header searchQuery={searchQuery} onSearchQueryChange={setSearchQuery} />
       <main className="flex-1">
         <div className="container mx-auto px-4 py-8">
+          <HowItWorksBanner />
           <CategoryFilters
             categories={categories}
             selectedCategory={selectedCategory}
