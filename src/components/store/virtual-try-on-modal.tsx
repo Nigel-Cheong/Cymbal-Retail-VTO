@@ -117,9 +117,9 @@ export default function VirtualTryOnModal({
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6 items-center">
             <div className="relative aspect-[3/4] rounded-lg overflow-hidden bg-muted flex items-center justify-center">
                 {generatedImage ? (
-                    <Image src={generatedImage} alt="Generated try-on" layout="fill" objectFit="contain" />
+                    <Image src={generatedImage} alt="Generated try-on" fill objectFit="contain" />
                 ) : userImagePreview ? (
-                    <Image src={userImagePreview} alt="User upload" layout="fill" objectFit="contain" />
+                    <Image src={userImagePreview} alt="User upload" fill objectFit="contain" />
                 ) : (
                     <div className="text-center text-muted-foreground p-4">
                         <Upload className="mx-auto h-12 w-12 mb-2" />
@@ -136,7 +136,7 @@ export default function VirtualTryOnModal({
                  <Image
                     src={product.image.imageUrl}
                     alt={product.name}
-                    layout="fill"
+                    fill
                     objectFit="cover"
                     data-ai-hint={product.image.imageHint}
                 />
