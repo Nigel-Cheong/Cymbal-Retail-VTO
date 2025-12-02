@@ -38,7 +38,6 @@ export const products: Product[] = [
     desc: 'Stay cozy and productive with this exclusive Google Workspace zip hoodie. Made by Marine Layer.',
     image: findImage('hoodie-google-workspace'),
     isNew: true,
-    isPopular: true,
   },
   {
     id: 'prod_1',
