@@ -21,6 +21,16 @@ export const categories: Category[] = [
 
 export const products: Product[] = [
   {
+    id: 'prod_10',
+    name: 'Google Workspace with Gemini hoodie',
+    category: 'Hoodies',
+    price: 109.99,
+    desc: 'Show your love for AI with this exclusive Google Workspace with Gemini hoodie.',
+    image: findImage('hoodie-google-gemini'),
+    isNew: true,
+    isPopular: true,
+  },
+  {
     id: 'prod_9',
     name: 'Google Workspace Zip Hoodie',
     category: 'Hoodies',

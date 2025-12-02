@@ -1,6 +1,12 @@
 {
   "placeholderImages": [
     {
+      "id": "hoodie-google-gemini",
+      "description": "Google Workspace with Gemini hoodie",
+      "imageUrl": "/images/sundar_with_hoodie.png",
+      "imageHint": "gemini hoodie"
+    },
+    {
       "id": "hoodie-google-workspace",
       "description": "Google Workspace zip hoodie",
       "imageUrl": "/images/workspace_zipped_hoodie.png",
